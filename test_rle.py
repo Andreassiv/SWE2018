@@ -15,7 +15,7 @@ def test_simple():
 
 
 @given(text())
-@settings (max_examples=100)
+@settings (max_examples=100 )
 def test_hypo(x):
     print x
     assert rle_decoder(rle_encoder(x)) == x
