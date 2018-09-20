@@ -3,7 +3,7 @@ argh==0.26.2
 attrs==18.2.0
 Babel==2.6.0
 backports.ssl-match-hostname==3.5.0.1
-blivet==0.61.15.69
+
 cffi==1.6.0
 chardet==2.2.1
 configobj==4.7.2
