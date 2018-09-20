@@ -19,9 +19,7 @@ jobs:
 
     steps:
       - checkout
-      -machine:
-          -post:
-          -pyenv global 2.7.5      
+                
 
       # Download and cache dependencies
       - restore_cache:
