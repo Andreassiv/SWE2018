@@ -33,9 +33,10 @@ jobs:
           command: |
             python3 -m venv venv
             . venv/bin/activate
-            pip install Python
+
             pip install --upgrade pip
             pip install -U pip  setuptools virtualenv
+            pip install Python
             pip install -r requirements.txt
 
       - save_cache:
